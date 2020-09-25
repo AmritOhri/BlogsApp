@@ -6,7 +6,7 @@ methodOverride   = require("method-override")
 expressSanitizer = require("express-sanitizer");
 
 //APP CONFIG
-mongoose.connect(process.env.URL, {
+mongoose.connect(process.env.DBURL, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
